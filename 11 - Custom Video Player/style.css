@@ -58,6 +58,18 @@ body {
   border-color: #ffc600;
 }
 
+.full__screen {
+  background: none;
+  border: 0;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  max-width: 50px;
+}
+
 .player__slider {
   width: 10px;
   height: 30px;
@@ -103,6 +115,8 @@ body {
   flex: 0;
   flex-basis: 50%;
 }
+
+
 
 /* unholy css to style input type="range" */
 
@@ -160,3 +174,5 @@ input[type=range]::-moz-range-thumb {
   background: #ffc600;
   cursor: pointer;
 }
+
+
